@@ -1,0 +1,58 @@
+/*TO DO:
+1. write out the html: 
+>
+2.use css to style the page
+deploy the page
+*/
+
+*{
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: gray;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div, p {
+    background-color: white;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header, #apple, .footer{
+    height: 70px;
+    display: flex; /*turns */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#apple{
+    margin-top: 80px
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.white_dancer{
+    background-color: white;
+}
+section, aside {
+    width: 50%;
+}
+
+section {
+    width: 60%
+}
+
+aside{
+    width: 50%;
+}
